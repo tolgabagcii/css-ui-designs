@@ -1,0 +1,213 @@
+/* genel ayarlar */
+
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+html {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #F6F5FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: fixed;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+    font-size: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Container ayarları */
+
+.plans {
+    background-color: #fff;
+    box-shadow: 1px 2px 5px rgb(182, 182, 182);
+    border-radius: 25px;
+    height: 460px;
+    width: 350px;
+    margin: 0px 15px;
+    padding: 40px;
+    font-size: 15px;
+    color: #181059;
+    text-align: center;
+}
+
+.col2 {
+    margin-top: 50px;
+    background-color: #181059;
+}
+
+/* iç tasarım */
+
+.plans h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.plans ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 22px 0px;
+    text-align: left;
+    
+}
+
+.plans ul li h3 {
+    margin-left: 10px;
+    
+}
+
+.plans h2 {
+    font-size: 25px;
+}
+
+.plans h2 i {
+    margin: 0px 2px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.plans h2 span {
+    margin: 0px 2px;
+    font-size: 18px;
+    color: #343051;
+}
+
+.plans button {
+    background-color: #e1daec;
+    border-style: none;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 17px;
+    color: #7934fa;
+}
+
+.true {
+    color: #5d5699;
+
+}
+
+.false {
+    color: #c8c4da;
+}
+
+/* col 2 */
+
+.plans2 h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #e2e1eb;
+}
+
+.plans2 ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 22px 0px;
+    text-align: left;
+    
+    
+}
+
+.plans2 ul li h3 {
+    margin-left: 10px;
+    
+}
+
+.plans2 h2 {
+    font-size: 25px;
+    color: #c4c1de;
+}
+
+.plans2 h2 i {
+    margin: 0px 2px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #c4c1de;
+}
+
+.plans2 h2 span {
+    margin: 0px 2px;
+    font-size: 18px;
+    color: #838099;
+}
+
+.plans2 button {
+    background-color: #853ef6;
+    border-style: none;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 17px;
+    color: #c8b4ed;
+}
+
+.true2 {
+    color: #c4c1de;
+
+}
+
+.false2 {
+    color: #5b5285;
+}
+
+@media (max-width: 900px) {
+
+    *{margin: 0px; padding: 0px; box-sizing: border-box; left: 0px; }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: 30px;
+    }
+
+    body {
+        align-items: flex-start;
+        box-sizing: border-box;
+    }
+
+    .plans {
+        width: 100%;
+        border-radius: 15px;
+        margin: 15px 0px;
+    }
+
+    html {
+        width: 100%;
+    }
+  }
